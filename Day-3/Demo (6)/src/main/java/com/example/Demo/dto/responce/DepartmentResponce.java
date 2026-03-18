@@ -1,0 +1,24 @@
+package com.example.Demo.dto.responce;
+
+public class DepartmentResponce {
+    private Long departmentId;
+    private String departmentName;
+    
+    public DepartmentResponce(Long departmentId, String departmentName) {
+        this.departmentId = departmentId;
+        this.departmentName = departmentName;
+    }
+    
+    public Long getDepartmentId() {
+        return departmentId;
+    }
+    public void setDepartmentId(Long departmentId) {
+        this.departmentId = departmentId;
+    }
+    public String getDepartmentName() {
+        return departmentName;
+    }
+    public void setDepartmentName(String departmentName) {
+        this.departmentName = departmentName;
+    }
+}
